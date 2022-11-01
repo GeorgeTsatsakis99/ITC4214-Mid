@@ -1,0 +1,113 @@
+.inputFields {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  margin-left: 28%;
+}
+
+#table-movies {
+  width: 100%;
+}
+
+#table-movies th {
+  background-color: lightcyan;
+}
+
+.delete-movie {
+  background-color: rgb(22, 19, 73);
+  color: white;
+}
+
+.edit-movie-active {
+  background-color: green;
+  color: white;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: lightgray;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70vh;
+}
+
+.navbar-dark .navbar-brand {
+  color: #32beda;
+}
+
+.navbar-dark .navbar-brand {
+  color: red;
+}
+
+#footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #403d3d;
+  margin-top: 100px;
+}
+
+.container {
+  margin-top: 15%;
+}
+
+.img-text {
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.img-text h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p {
+  font-size: 13px;
+}
+
+.single-box {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.img-area {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  left: 0;
+  background: rgba(54, 26, 26, 0.123);
+  top: auto;
+  bottom: 70px;
+}
+
+.carousel-indicators li {
+  background: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-indicators .active {
+  background: rgb(42, 118, 128);
+}
